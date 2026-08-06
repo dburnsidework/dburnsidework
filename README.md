@@ -52,23 +52,9 @@
 
 <!-- Social Badges -->
 <p align="center">
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iITIyRDNFRSIgZD0iTTE5IDNBNCA0IDAgMCAxIDIzIDdWMTdBNDQgMCAwIDEgMTkgMjNINAA0IDAgMCAxIDEgNlY3QTQgNCAwIDAgMSA1IDNISTlsTTE4LjUgNiBIMTcuNUMxNS45NSA2IDE0LjY3IDYuNzcgMTQuMDcgNy45QzEzLjUgNi43NyAxMi4yMiA2IDEwLjY3IDYgSDkuNVY4VjguMDVIMTAuNjdDMTEuODYgOCAxMi44NCA4Ljk4IDEyLjg0IDEwVjE4SDE1Ljg0VjExLjlDMTUuODQgMTEuMTIgMTYuNTMgMTAuNDMgMTcuNDEgMTAuNDNDMTguMjkgMTAuNDMgMTguOTggMTEuMTIgMTguOTggMTEuOVYxOEgyMS44NFYxMEMyMS44NCA3Ljc5IDQuMTYgNiAxOC41IDZNMTguNSA2LlpNNy44OCA2SDRWNjhINy44OFY2WiBNNS45NCAzLjE4QTEuOTMgMS45MyAwIDAgMCA0IDUuMTFBMS45MyAxLjkzIDAgMCAwIDUuOTQgNy4wNEExLjkzIDEuOTMgMCAwIDAgNy44OCA1LjExQTEuOTMgMS45MyAwIDAgMCA1Ljk0IDMuMThaIi8+PC9zdmc+&logoColor=22D3EE" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://instagram.com/your-handle">
-    <img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=22D3EE" alt="Instagram" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://facebook.com/your-handle">
-    <img src="https://img.shields.io/badge/Facebook-0A101F?style=for-the-badge&logo=facebook&logoColor=22D3EE" alt="Facebook" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Gmail-0A101F?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://your-portfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" />
-  </a>
+  <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iITIyRDNFRSIgZD0iTTE5IDNBNCA0IDAgMCAxIDIzIDdWMTdBNDQgMCAwIDEgMTkgMjNINAA0IDAgMCAxIDEgNlY3QTQgNCAwIDAgMSA1IDNISTlsTTE4LjUgNiBIMTcuNUMxNS45NSA2IDE0LjY3IDYuNzcgMTQuMDcgNy45QzEzLjUgNi43NyAxMi4yMiA2IDEwLjY3IDYgSDkuNVY4VjguMDVIMTAuNjdDMTEuODYgOCAxMi44NCA4Ljk4IDEyLjg0IDEwVjE4SDE1Ljg0VjExLjlDMTUuODQgMTEuMTIgMTYuNTMgMTAuNDMgMTcuNDEgMTAuNDNDMTguMjkgMTAuNDMgMTguOTggMTEuMTIgMTguOTggMTEuOVYxOEgyMS44NFYxMEMyMS44NCA3Ljc5IDQuMTYgNiAxOC41IDZNMTguNSA2LlpNNy44OCA2SDRWNjhINy44OFY2WiBNNS45NCAzLjE4QTEuOTMgMS45MyAwIDAgMCA0IDUuMTFBMS45MyAxLjkzIDAgMCAwIDUuOTQgNy4wNEExLjkzIDEuOTMgMCAwIDAgNy44OCA1LjExQTEuOTMgMS45MyAwIDAgMCA1Ljk0IDMuMThaIi8+PC9zdmc+&logoColor=22D3EE" alt="LinkedIn"></a>
+  <a href="https://instagram.com/your-handle"><img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=22D3EE" alt="Instagram"></a>
+  <a href="https://facebook.com/your-handle"><img src="https://img.shields.io/badge/Facebook-0A101F?style=for-the-badge&logo=facebook&logoColor=22D3EE" alt="Facebook"></a>
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Gmail-0A101F?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email"></a>
+  <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio"></a>
 </p>
