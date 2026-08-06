@@ -1,6 +1,114 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="300" fill="#0d1117" />
-  <text x="50%" y="50%" fill="#ffffff" font-size="64" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" text-anchor="middle" dominant-baseline="middle">
-    Voided
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" shape-rendering="crispEdges">
+  <defs>
+    <!-- Segmented subject mask for hard bleed clear -->
+    <clipPath id="portrait_mask">
+      <path d="[...segmentation_mask_path_data...]" />
+    </clipPath>
+    <!-- Optimal transport paths for the 900 traveller dots -->
+    <path id="transport_0" d="[...transport_path_data...]" />
+    <!-- 900 Traveller Paths -->
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="1180" height="610" fill="#0A101F"/>
+
+  <!-- Left: Visual Map Panel -->
+  <g transform="translate(15,15)">
+    <rect width="448" height="580" fill="none" stroke="#0891B2" stroke-width="1"/>
+    <text x="10" y="20" font-family="monospace" font-size="12" fill="#22D3EE">VISUAL.MAP</text>
+    <rect x="5" y="30" width="438" height="1" fill="#0891B2"/>
+    
+    <!-- Portrait Area (300x340, centered within panel) -->
+    <g transform="translate(74, 120)">
+      <rect width="300" height="340" fill="#0A101F"/>
+      
+      <!-- Portrait Layer (1-bit dither, segmented, drifts on loop) -->
+      <g id="portrait_layer" clip-path="url(#portrait_mask)">
+        <style>
+          @media (prefers-reduced-motion: no-preference) {
+            #portrait_layer { animation: intro_fade 3.2s linear forwards; opacity: 0; }
+            #d_band_0 { animation: drift 14.2s infinite; animation-delay: 3.2s; }
+            /* ...94 Drift Band Animations... */
+          }
+          @keyframes intro_fade { 0% { opacity: 0; } 100% { opacity: 1; } }
+          @keyframes drift { 0% { transform: translate(0, 0); opacity: 1; } 21.1% { transform: translate(0, 0); opacity: 1; } 30.3% { transform: translate(-30px, 0); opacity: 0; } 39.4% { transform: translate(0, 0); opacity: 1; } 100% { transform: translate(0, 0); opacity: 1; } }
+          /* Optimized drift delays for even dissolve */
+          #d_band_0 { animation-delay: 3.2s; }
+        </style>
+        
+        <!-- Dot Density: 17,210 points -->
+        <g id="d_band_0" fill="#A78BFA">
+          <rect x="[...]" y="[...]" width="1" height="1"/> <!-- ~180KB raw points -->
+        </g>
+        <!-- 94 optimized drift bands -->
+      </g>
+      
+      <!-- Travellers Layer (Morphed logos, transport path optimized) -->
+      <g id="travellers_layer">
+        <style>
+          @media (prefers-reduced-motion: no-preference) {
+            #travellers_layer { animation: traveller_visibility 14.2s infinite; animation-delay: 3.2s; opacity: 0; }
+            #t_dot_0 { animation: morph 14.2s infinite; animation-delay: 3.2s; }
+            /* ...900 Traveller Animations... */
+          }
+          @keyframes traveller_visibility { 0% { opacity: 0; } 21.1% { opacity: 0; } 22.1% { opacity: 1; } 38.4% { opacity: 1; } 39.4% { opacity: 0; } 100% { opacity: 0; } }
+          @keyframes morph { 0% { offset-distance: 0%; } 100% { offset-distance: 100%; } }
+        </style>
+        
+        <!-- 900 points with explicit keyTimes for custom phase lengths -->
+        <g id="t_dot_0" fill="#A78BFA">
+          <circle r="1.5">
+            <animateMotion dur="14.2s" repeatCount="indefinite" begin="3.2s" keyTimes="0; 0.211; 0.303; 0.394; 0.535; 0.676; 0.817; 1" path="[...]" />
+          </circle>
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Right: System Info Panel (Readout.sh --live) -->
+  <g transform="translate(478,15)">
+    <rect width="687" height="580" fill="none" stroke="#0891B2" stroke-width="1"/>
+    
+    <!-- Title Bar -->
+    <g transform="translate(10, 10)">
+      <text font-family="monospace" font-size="13" fill="#22D3EE">profile.sh --live</text>
+      
+      <!-- Pulsing Red LIVE Badge -->
+      <g transform="translate(180, 0)">
+        <style>
+          @media (prefers-reduced-motion: no-preference) {
+            #pulse { animation: pulse_opacity 1.5s infinite; }
+          }
+          @keyframes pulse_opacity { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
+        </style>
+        <rect id="pulse" width="10" height="10" fill="#EF4444" rx="2"/>
+        <text x="15" y="9" font-family="monospace" font-size="12" fill="#22D3EE">LIVE</text>
+      </g>
+      
+      <!-- Handle Pill (Themed Accent) -->
+      <g transform="translate(560, -3)">
+        <rect width="117" height="20" rx="10" fill="#10B981"/>
+        <text x="58.5" y="14" font-family="monospace" font-size="14" font-weight="bold" fill="#0A101F" text-anchor="middle">dburnsidework</text>
+      </g>
+    </g>
+    
+    <rect x="5" y="30" width="677" height="1" fill="#0891B2"/>
+    
+    <!-- Dotted Readout rows with computed leaders -->
+    <g transform="translate(15, 60)" font-family="monospace" font-size="14" fill="#22D3EE">
+      <style>
+        .computed-dot { fill: #0891B2; fill-opacity: 0.6; }
+        .data-val { fill: #10B981; textLength: 100%; lengthAdjust: spacingAndGlyphs; text-anchor: end; }
+      </style>
+      
+      <!-- Row 1: Subject -->
+      <g transform="translate(0, 0)">
+        <text>Subject</text>
+        <text x="140" class="computed-dot">...............................</text>
+        <rect x="420" width="240" height="18" fill="none"/>
+        <text x="660" y="0" class="data-val" textLength="240">Standard Cockapoo [F1]</text>
+      </g>
+      <!-- ...23 computed data rows... -->
+    </g>
+  </g>
 </svg>
