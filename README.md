@@ -7,37 +7,25 @@
   </picture>
 </p>
 
-<br/>
+<br>
 
 <!-- Stats Cards -->
 <a href="https://github.com/dburnside">
-  <img 
-    width="100%" 
-    src="https://streak-stats.demolab.com?user=dburnside&theme=custom&background=0A101F&border=0891B2&stroke=0891B2&ring=10B981&fire=10B981&currStreakNum=22D3EE&sideNums=22D3EE&currStreakLabel=10B981&sideLabels=10B981&dates=22D3EE" 
-    alt="GitHub Streak" 
-  />
+  <img width="100%" src="https://streak-stats.demolab.com?user=dburnside&theme=custom&background=0A101F&border=0891B2&stroke=0891B2&ring=10B981&fire=10B981&currStreakNum=22D3EE&sideNums=22D3EE&currStreakLabel=10B981&sideLabels=10B981&dates=22D3EE" alt="GitHub Streak">
 </a>
 
-<br/><br/>
+<br><br>
 
 <p align="center">
   <a href="https://github.com/dburnside">
-    <img 
-      width="49%" 
-      src="https://github-readme-stats-hobby-6130.vercel.app/api?username=dburnside&show_icons=true&hide_rank=true&bg_color=0A101F&title_color=10B981&text_color=22D3EE&icon_color=10B981&border_color=0891B2" 
-      alt="GitHub Stats" 
-    />
+    <img width="49%" src="https://github-readme-stats-hobby-6130.vercel.app/api?username=dburnside&show_icons=true&hide_rank=true&bg_color=0A101F&title_color=10B981&text_color=22D3EE&icon_color=10B981&border_color=0891B2" alt="GitHub Stats">
   </a>
   <a href="https://github.com/dburnside">
-    <img 
-      width="49%" 
-      src="https://github-readme-stats-hobby-6130.vercel.app/api/top-langs/?username=dburnside&layout=compact&bg_color=0A101F&title_color=10B981&text_color=22D3EE&border_color=0891B2" 
-      alt="Top Languages" 
-    />
+    <img width="49%" src="https://github-readme-stats-hobby-6130.vercel.app/api/top-langs/?username=dburnside&layout=compact&bg_color=0A101F&title_color=10B981&text_color=22D3EE&border_color=0891B2" alt="Top Languages">
   </a>
 </p>
 
-<br/>
+<br>
 
 <!-- Contribution Snake -->
 <p align="center">
@@ -48,7 +36,7 @@
   </picture>
 </p>
 
-<br/>
+<br>
 
 <!-- Social Badges -->
 <p align="center">
